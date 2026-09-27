@@ -47,7 +47,8 @@ const HALLUCINATION_MARKERS = [
   "refund", "subscription plan", "premium plan", "enterprise", "certified",
   "guarantee", "24/7", "live chat support", "loyalty program", "cancel",
   "trial", "delivery fee", "shipping fee", "international shipping", "import",
-  "discount", "coupon", "gift card", "free trial",
+  "discount", "coupon", "gift card", "free trial", "fee", "charge", "charged",
+  "cannot change", "can't change", "cannot be changed",
 ];
 
 function hasFabricatedSpecifics(answer, description) {
